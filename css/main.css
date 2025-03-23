@@ -1,0 +1,97 @@
+/*Carrossel*/   
+    .carousel-inner {
+        position: relative;
+        overflow: hidden;
+        height: 500px; /* Ajuste conforme necessário */
+    }
+    .carousel-inner01 {
+        position: relative;
+        overflow: hidden;
+        height: 400px; /* Ajuste conforme necessário */
+    }
+    .carousel-item {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+    }
+    .carousel-item.active {
+        opacity: 1;
+        position: relative;
+    }
+/*Carrossel*/
+/*Carrossel 03*/
+    #carouselNovo  {
+        max-width: 600px; /* Ajuste conforme necessário */
+        margin: auto;
+    }
+    #Idsetas {
+        width: 6% !important;
+    }
+/*Carrossel 03*/
+/*Carrossel 04*/
+    #carouselCustom .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para as legendas */
+        padding: 10px;
+        border-radius: 5px;
+    }
+/*Carrossel 04*/
+/*Atividade 01*/
+    label {
+        font-family: OpenSans-Light; 
+    }
+    #botaoResposta, #botaoResposta1, #botaoResposta2, #botaoResposta3, #botaoResposta10, #botaoResposta11, #botaoResposta12, #botaoResposta13, #botaoResposta14, #botaoResposta16, #botaoResposta17, #botaoResposta18, #botaoResposta19, #botaoResposta20 {
+        width: 50%;
+        padding: .3rem 0rem !important;
+        border-radius: 15px;
+        background: var(--color-Secundaria);
+        color: var(--bs-white);
+    }
+/*Atividade 01*/
+/*Atividade 02*/
+.draggable, .draggable02, .draggable03{
+    width: 50%;
+    text-align: center;
+    cursor: grab;
+    border-radius: 5px;
+}
+
+.container, .container02, .container03{
+    width: 50%;
+    height: 50px;
+    border: 2px dashed #333;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #333;
+    position: relative;  /* Faz o container ser um ponto de referência para o posicionamento do item */
+}
+
+.highlight-drop, .highlight-drop2, .highlight-drop3{
+    border: 2px solid green;
+    background: #fff;
+}
+/*Atividade 02*/
+/*Carrossel 05*/
+#carouselExtra {
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  #carouselExtra .carousel-item img {
+    height: 60px;
+    object-fit: cover;
+  }
+
+  #carouselExtra .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+/*Carrossel 05*/
